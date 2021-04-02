@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(123, 243, 207);
+}
+
+/* header */
+.container .login-head{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(171, 175, 177, 0.514);
+    display: flex;
+    align-items: center;
+}
+
+.container .login-head img{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px 0 50px;
+}
+.container .login-head span{
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* form */
+.container .login-form{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin:150px auto;
+    padding: 50px;
+}
+.container .login-form h2{
+    text-align: center;
+}
